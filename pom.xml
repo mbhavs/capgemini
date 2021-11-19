@@ -23,11 +23,11 @@
     </dependencies>
 
     <distributionManagement>
-    <repository>
-      <id>deployment</id>
-      <name>Releases</name>
-      <url>http://34.125.71.166:8081/repository/maven-releases/</url>
-    </repository>
-  </distributionManagement>
+    <snapshotRepository>
+        <id>deployment</id>
+        <name>Snapshot</name>
+        <url>http://34.125.71.166:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+    </distributionManagement>
 
 </project>
