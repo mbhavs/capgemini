@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>demo</groupId>
     <artifactId>ks</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>6.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>ks-1.0-SNAPSHOT</name>
     
@@ -21,5 +21,13 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-    
+
+    <distributionManagement>
+    <snapshotRepository>
+        <id>deployment</id>
+        <name>Snapshot</name>
+        <url>http://34.125.71.166:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+    </distributionManagement>
+
 </project>
