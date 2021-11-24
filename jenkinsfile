@@ -1,3 +1,8 @@
 var a = 100
 var a+b = 200
+<<<<<<< HEAD
 var b =4000
+=======
+
+var d =2000
+>>>>>>> feature1
